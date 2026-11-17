@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TheDigitalVault | Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+  <svg width="36" height="36" viewBox="0 0 64 64" role="img" aria-label="Vault logo" xmlns="http://www.w3.org/2000/svg">
+    <rect x="8" y="6" width="50" height="50" rx="8" fill="#FFC107" stroke="#FFFFFF" stroke-width="3"/>
+    <rect x="3" y="16" width="7" height="10" rx="2" fill="#FFFFFF"/>
+    <rect x="3" y="36" width="7" height="10" rx="2" fill="#FFFFFF"/>
+    <circle cx="33" cy="31" r="18" fill="#343A40" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="33" cy="31" r="11" fill="none" stroke="#FFC107" stroke-width="2"/>
+    <line x1="33" y1="20" x2="33" y2="42" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="31" x2="44" y2="31" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="33" cy="31" r="4" fill="#FFFFFF"/>
+    <rect x="16" y="56" width="8" height="4" rx="1" fill="#FFFFFF"/>
+    <rect x="42" y="56" width="8" height="4" rx="1" fill="#FFFFFF"/>
+  </svg>
+  <span>TheDigitalVault</span>
+</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="flex-grow-1">
+    <div class="container py-5">
+      <h1 class="text-center mb-2 animate__animated animate__fadeIn">Our Products</h1>
+      <p class="text-center text-muted mb-5">Browse our range of 8 popular items.</p>
+
+      <!-- GRID: row + columns. 1 card per row on phones, 2 on tablets, 4 on large screens. g-4 = gap between cards -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/headphones.jpg.jpg" class="card-img-top" alt="Wireless Headphones">
+            <div class="card-body">
+              <h5 class="card-title">Wireless Headphones</h5>
+              <p class="card-text">Comfortable over-ear headphones with great sound.</p>
+              <p class="fw-bold mb-0">R 899</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/smartwatch.jpg.jpg" class="card-img-top" alt="Smart Watch">
+            <div class="card-body">
+              <h5 class="card-title">Smart Watch</h5>
+              <p class="card-text">Track your steps, sleep and notifications.</p>
+              <p class="fw-bold mb-0">R 1 299</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/speaker.jpg" class="card-img-top" alt="Bluetooth Speaker">
+            <div class="card-body">
+              <h5 class="card-title">Bluetooth Speaker</h5>
+              <p class="card-text">Portable and waterproof, perfect for outdoors.</p>
+              <p class="fw-bold mb-0">R 649</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/powerbank.jpg.jpg" class="card-img-top" alt="Power Bank">
+            <div class="card-body">
+              <h5 class="card-title">Power Bank 20000mAh</h5>
+              <p class="card-text">Charge your phone several times on the go.</p>
+              <p class="fw-bold mb-0">R 449</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/keyboard.jpg.jpg" class="card-img-top" alt="Mechanical Keyboard">
+            <div class="card-body">
+              <h5 class="card-title">Mechanical Keyboard</h5>
+              <p class="card-text">Satisfying keys for typing and gaming.</p>
+              <p class="fw-bold mb-0">R 999</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/seed/p6/600/400" class="card-img-top" alt="Wireless Mouse">
+            <div class="card-body">
+              <h5 class="card-title">Wireless Mouse</h5>
+              <p class="card-text">Smooth, quiet and long battery life.</p>
+              <p class="fw-bold mb-0">R 299</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/laptopstand.jpg.jpg" class="card-img-top" alt="Laptop Stand">
+            <div class="card-body">
+              <h5 class="card-title">Laptop Stand</h5>
+              <p class="card-text">Adjustable aluminium stand for better posture.</p>
+              <p class="fw-bold mb-0">R 379</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/charger.jpg.jpg" class="card-img-top" alt="USB-C Fast Charger">
+            <div class="card-body">
+              <h5 class="card-title">USB-C Fast Charger</h5>
+              <p class="card-text">65W charger for phones, tablets and laptops.</p>
+              <p class="fw-bold mb-0">R 349</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 TheDigitalVault. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
